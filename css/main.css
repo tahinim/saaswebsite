@@ -13,16 +13,24 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+    background-color: #FFCC99;
 }
 
-@media only screen and (min-width: 25em) {
- .masthead {
-    background-color:#FFCC99;
-    overflow: hidden;
-    display: block;
-    padding: none;
-    
+img {
+    width:100%;
 }
+
+.logo {
+    width: 50%;
+
+}
+.banner {
+    background-image: url(../images/grilledchicken.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
 .nav {
     padding:0;
     text-align:left;
@@ -98,7 +106,7 @@ ul {
 }
     
 .weight {
-    padding-left: 6rem;
+    padding: 5rem 18rem;
 }
     
 .calculate {
@@ -108,7 +116,10 @@ ul {
     font-weight:bold;
     padding:none;
     cursor: pointer;
-    background-color: white;   
+}
+
+.button {
+    padding: 0 13.5rem 2rem;
 }
     
 .trial {
@@ -119,11 +130,6 @@ ul {
     margin-bottom:1em;
     cursor: pointer;
     background-color: white;  
-}
-
-.lightorange {
-    background-color: #FFCC99;
-    overflow: hidden;
 }
     
 .fontcolour {

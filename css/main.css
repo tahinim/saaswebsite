@@ -21,7 +21,159 @@ img {
 }
 
 .logo {
-    width: 50%;
+    width: 30%;
+    float: inherit;
+
+}
+.banner {
+    background-image: url(../images/grilledchicken.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    margin:none;
+}
+
+ul {
+    list-style-type: none;
+    padding-right: 4rem;
+}
+
+.nav li {
+  display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+  color: #FF6633;
+  text-decoration: none;
+  overflow: hidden;
+  font-weight: 400;
+  padding-top: 0.5rem;
+  text-align: right;
+  padding-left: 0.5rem;
+  font-size:1rem;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #FF6633;
+ color: #fff;
+}
+
+  .nav {
+    text-align:right;
+  }
+
+  .nav li {
+    display:inline-flex;
+    padding:.25em;
+  }
+
+.title {
+    text-align:center;
+    padding: 0 0 0.5em;
+    color:#FF6633;
+    width: 100%;
+    font-size: 2.0rem;
+}
+
+.current {
+    color: black;
+    font-weight: bold;
+}
+
+.goal{
+    color: black;
+    font-weight: bold;
+}
+    
+.weight {
+    padding: 5rem 18rem;
+}
+    
+.calculate {
+    font-size: 1em;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    padding:none;
+    cursor: pointer;
+}
+
+.button {
+    padding: 0 13.5rem 2rem;
+}
+
+.title1 {
+    text-align: center;
+}
+
+.title2 {
+    text-align: center;
+}
+
+.title3 {
+    text-align: center;
+}
+    
+.h1 {
+    color: #FF6633;
+}
+
+.h2 {
+    color: #FF6633;
+}
+
+.day {
+    padding-right: 2rem;
+}
+.trial {
+     font-size: 1.2em;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    margin-bottom:1em;
+    cursor: pointer; 
+}
+    
+.fontcolour {
+    color:#FF6633;
+}
+
+.footer {
+background-color: #FFFFFF;
+color: black;
+}
+    
+.copyright {
+    overflow: hidden;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    text-align: center;
+    padding-left: 1rem;
+    font-size:0.7em;
+}    
+
+.nav micro {
+    padding:0;
+    text-align:left;
+    text-decoration: none;
+}
+
+@media only screen and (min-width: 38em) {
+
+  img {
+    width:100%;
+}
+
+.logo {
+    width: 40%;
 
 }
 .banner {
@@ -83,26 +235,23 @@ ul {
     display:inline-flex;
     padding:.25em;
   }
-
-.title1 {
-    text-align:center;
-    margin: 0;
-    padding: 0 0 .5rem;
-    color:#FF6633
-}
-
-.title2 {
-    text-align:center;
-    margin: 0;
-    padding:0 0 .5rem;
-    color:#FF6633
+    
+.title1{
+   float: left;
+    color:#FF6633;
+    padding-left: 4rem;
 }
     
-.title3 {
-    text-align:center;
-    margin:0;
-    padding: 0 0 .5rem;
-    color:#FF6633
+.title2{
+    float:center;
+    color:#FF6633;
+    padding-right:7rem
+}
+    
+.title3{
+    float:right;
+    color:#FF6633;
+    padding-left: 3rem;
 }
     
 .weight {
@@ -121,15 +270,22 @@ ul {
 .button {
     padding: 0 13.5rem 2rem;
 }
-    
+
+.h1 {
+    color: #FF6633;
+}
+
+.h2 {
+    color: #FF6633; 
+}
+
 .trial {
      font-size: 1.2em;
     font-family:sans-serif;
     font-style: italic;
     font-weight:bold;
     margin-bottom:1em;
-    cursor: pointer;
-    background-color: white;  
+    cursor: pointer; 
 }
     
 .fontcolour {
@@ -137,7 +293,7 @@ ul {
 }
 
 .footer {
-background-color: #669933;
+background-color: #FFFFFF;
 color: black;
 }
     
@@ -155,40 +311,148 @@ color: black;
     text-align:left;
     text-decoration: none;
 }
+    
+@media only screen and (min-width: 60em) {
 
-@media only screen and (min-width: 38em) {
+  img {
+    width:100%;
+}
 
-  .title,
+.logo {
+    width: 50%;
+}
+    
+.banner {
+    background-image: url(../images/grilledchicken.jpg);
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+}
+
+.nav {
+    padding:0;
+    text-align:left;
+    text-decoration: none;
+}
+    
+.nav a {
+    text-decoration: none;
+    color: #0074D9;
+    margin:0;
+    padding:0;
+}
+ul {
+    list-style-type: none;
+    padding:0;
+}
+    
+.nav {
+  padding: 0;
+}
+
+.nav li {
+  display: block;
+}
+
+.nav a,
+.nav a:link,
+.nav a:visited {
+  display: block;
+
+  color: #FF6633;
+  text-decoration: none;
+}
+
+.nav a:hover,
+.nav a:focus,
+.nav a:active,
+.nav .nav-current,
+.nav .nav-current:link,
+.nav .nav-current:visited {
+  background-color: #FF6633;
+ color: #fff;
+}
+
   .nav {
     text-align:right;
   }
+
+  .nav li {
+    display:inline-flex;
+    padding:.25em;
+  }
+
+.title1{
+   float: left;
+   color:#FF6633;   
+}
     
-.title1 {
-    text-align:center;
-    margin: 0;
-    padding:1.5rem;
-    padding-left: 6em;
-    padding-top: 0em;
+.title2{
+    text-align: center;
     color:#FF6633;
-    display: inline-flex;
+}
+    
+.title3{
+    text-align: left;
+    color:#FF6633;
+}
+    
+    
+.weight {
+    padding: 5rem 18rem;
+}
+    
+.calculate {
+    font-size: 1em;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    padding:none;
+    cursor: pointer;
 }
 
-.title2 {
-    text-align:right;
-    margin: 0;
-    padding:1.5rem;
-    padding-left: 2em;
-    padding-top: 0em;
-    color:#FF6633;
-    display: inline-flex;
+.button {
+    padding: 0 13.5rem 2rem;
+}
+
+.h1 {
+    color: #FF6633;
+}
+
+.h2 {
+    color: #FF6633;
+    
+}
+
+.trial {
+     font-size: 1.2em;
+    font-family:sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    margin-bottom:1em;
+    cursor: pointer; 
 }
     
-.title3 {
-    text-align:right;
-    margin:0;
-    padding:1.5rem;
-    padding-left:2em;
-    padding-top: 0em;
+.fontcolour {
     color:#FF6633;
-    display: inline-flex;
+}
+
+.footer {
+background-color: #FFFFFF;
+color: black;
+}
+    
+.copyright {
+    overflow: hidden;
+    font-weight: 400;
+    padding-top: 0.5rem;
+    text-align: center;
+    padding-left: 1rem;
+    font-size:0.7em;
+}    
+
+.nav micro {
+    padding:0;
+    text-align:left;
+    text-decoration: none;
 }

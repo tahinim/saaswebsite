@@ -87,10 +87,12 @@ ul {
 .goal{
     color: black;
     font-weight: bold;
+    background-color: yellow;
 }
     
 .weight {
     xpadding: 5rem 18rem;
+    background-color: yellow;
 }
     
 .calculate {

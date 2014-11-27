@@ -105,7 +105,6 @@ ul {
 }
 
 .title1 {
-    padding: 0 0 0.5em;
     color:#FF6633;
     width: 33.33%;
     font-size: 2.0rem;
@@ -113,17 +112,15 @@ ul {
 }
 
 .title2 {
-    padding: 0 0 0.5em;
     color:#FF6633;
-    width: 50%;
+    width:33.33%;
     font-size: 2.0rem;
-    text-align: left;
+    text-align:center;
 }
 
 .title3 {
-    padding: 0 0 0.5em;
     color:#FF6633;
-    width: 50%;
+    width:33.33%;
     font-size: 2.0rem;
     float: right;
 }
@@ -321,27 +318,30 @@ color: black;
     list-style-type: none;
     padding-right: 3rem;
 }
+    
+.title{
+    width: 100%;
+    
+}
     .title1{
    float:left;
     color:#FF6633;
     width: 33.333%;
-    text-align: center;
-    width: 100%
+    text-align: left;
+ 
 }
     
 .title2{
     color:#FF6633;
     width: 33.333%;
-    text-align: center;
-    width: 100%;
+    text-align:left;
+    
 }
     
 .title3{
-    float:left;
     color:#FF6633;
     width: 33.333%;
-    text-align: center;
-    width: 100%;
+    text-align:right;
 }
 
 @media only screen and (min-width: 38em) {

@@ -75,14 +75,6 @@ ul {
     padding:.25em;
   }
 
-.title {
-    text-align:center;
-    padding: 0 0 0.5em;
-    color:#FF6633;
-    width: 100%;
-    font-size: 2.0rem;
-}
-
 .current {
     color: black;
     font-weight: bold;
@@ -113,15 +105,27 @@ ul {
 }
 
 .title1 {
-    text-align: center;
+    padding: 0 0 0.5em;
+    color:#FF6633;
+    width: 33.33%;
+    font-size: 2.0rem;
+    text-align: left;
 }
 
 .title2 {
-    text-align: center;
+    padding: 0 0 0.5em;
+    color:#FF6633;
+    width: 50%;
+    font-size: 2.0rem;
+    text-align: left;
 }
 
 .title3 {
-    text-align: center;
+    padding: 0 0 0.5em;
+    color:#FF6633;
+    width: 50%;
+    font-size: 2.0rem;
+    float: right;
 }
     
 .h1 {
@@ -239,17 +243,19 @@ ul {
     
     
 .title1{
-   float: left;
+   float:left;
     color:#FF6633;
     width: 33.333%;
     text-align: center;
+    width: 100%;
+    
 }
     
 .title2{
-    float:left;
     color:#FF6633;
     width: 33.333%;
     text-align: center;
+    width: 100%;
 }
     
 .title3{
@@ -257,6 +263,7 @@ ul {
     color:#FF6633;
     width: 33.333%;
     text-align: center;
+    width: 100%;
 }
 
 .calculate {
@@ -314,7 +321,28 @@ color: black;
     list-style-type: none;
     padding-right: 3rem;
 }
-
+    .title1{
+   float:left;
+    color:#FF6633;
+    width: 33.333%;
+    text-align: center;
+    width: 100%
+}
+    
+.title2{
+    color:#FF6633;
+    width: 33.333%;
+    text-align: center;
+    width: 100%;
+}
+    
+.title3{
+    float:left;
+    color:#FF6633;
+    width: 33.333%;
+    text-align: center;
+    width: 100%;
+}
 
 @media only screen and (min-width: 38em) {
     .nav li {

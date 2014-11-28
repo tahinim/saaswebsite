@@ -143,6 +143,7 @@ ul {
     font-weight:bold;
     margin-bottom:1em;
     cursor: pointer; 
+    text-align: center;
 }
     
 .fontcolour {

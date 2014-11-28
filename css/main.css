@@ -22,6 +22,8 @@ html {
 .header {
     background-color: white;
     margin-bottom: 1rem;
+    border-style:solid;
+    border-color:#FF6633;
 }
 
 img {
@@ -72,8 +74,11 @@ ul {
 
   .nav li {
     display:inline-flex;
-    padding:.25em;
   }
+
+.nav ul {
+    padding:0rem;
+}
 
 .current {
     color: black;
@@ -108,7 +113,7 @@ ul {
     color:#FF6633;
     width: 33.33%;
     font-size: 2.0rem;
-    text-align: left;
+    text-align:center;
 }
 
 .title2 {
@@ -152,8 +157,10 @@ ul {
 
 
 .footer {
-background-color: #FFFFFF;
-color: black;
+    background-color: #FFFFFF;
+    color: black;
+    border-style:solid;
+    border-color:#FF6633;
 }
     
 .copyright {
@@ -165,10 +172,9 @@ color: black;
     font-size:0.7em;
 }    
 
-.nav micro {
+.micro {
     padding:0;
-    text-align:left;
-    text-decoration: none;
+    text-align:center;
 }
   img {
     width:100%;
@@ -199,26 +205,25 @@ color: black;
     margin:0;
     padding:none;
 }
-ul {
+
+.navtop {
     list-style-type: none;
     padding:0;
-}
-    
-.nav {
-  padding:none;
+    width: 50%;
+    float:right;    
 }
 
 .nav li {
-  display: block;
+    display: block;
+    padding: .25rem;
 }
 
 .nav a,
 .nav a:link,
 .nav a:visited {
-  display: block;
-
-  color: #FF6633;
-  text-decoration: none;
+    display: block;
+    color: #FF6633;
+    text-decoration: none;
 }
 
 .nav a:hover,
@@ -231,13 +236,12 @@ ul {
  color: #fff;
 }
 
-  .nav {
+.nav {
     text-align:right;
   }
 
-  .nav li {
+.nav li {
     display:inline-flex;
-    padding:.25em;
   }
     
     
@@ -297,8 +301,8 @@ ul {
 }
 
 .footer {
-background-color: #FFFFFF;
-color: black;
+    background-color: #FFFFFF;
+    color: black;
 }
     
 .copyright {
@@ -317,7 +321,7 @@ color: black;
 }
 @media only screen and (min-width: 25em) {
 
-    ul {
+ul {
     list-style-type: none;
     padding-right: 3rem;
 }
@@ -326,18 +330,19 @@ color: black;
     width: 100%;
     
 }
-    .title1{
+.title1{
    float:left;
     color:#FF6633;
     width: 33.333%;
     text-align: left;
- 
+    font-size: 1.5rem;
 }
     
 .title2{
     color:#FF6633;
     width: 33.333%;
     text-align:left;
+    font-size: 1.5rem;
     
 }
     
@@ -345,12 +350,13 @@ color: black;
     color:#FF6633;
     width: 33.333%;
     text-align:right;
+    font-size: 1.5rem;
 }
     
 .work {
-        text-align: center;
-        border-style: solid;
-        border color: #FF6633;
+    text-align: center;
+    border-style: solid;
+    border color: #FF6633;
     }
 
 
@@ -359,19 +365,19 @@ color: black;
     display: inline-block;
     }
     
-    .work {
-        text-align: center;
-        border-style: solid;
-        border color: #FF6633;
+.work {
+     text-align: center;
+     border-style: solid;
+    border color: #FF6633;
     }
     
 .nav a:visited {
-  display: block;
-  color: #FF6633;
+   display: block;
+   color: #FF6633;
 }
     
 @media only screen and (min-width: 60em) {
     
-    
-    
-}
+    .title2 {
+        text-align: center;
+    }

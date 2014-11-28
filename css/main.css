@@ -150,6 +150,7 @@ ul {
     color:#FF6633;
 }
 
+
 .footer {
 background-color: #FFFFFF;
 color: black;
@@ -348,6 +349,10 @@ color: black;
 @media only screen and (min-width: 38em) {
     .nav li {
     display: inline-block;
+    }
+    
+    .work {
+        text-align: center;
     }
     
 .nav a:visited {

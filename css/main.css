@@ -85,12 +85,15 @@ ul {
     color: black;
     font-weight: bold;
     background-color: #99CC66;
+    padding: 1em
 }
 
 .goal{
     color: black;
     font-weight: bold;
     background-color: #99CC66;
+    padding: 1em;
+    margin-bottom: 1em;
 }
     
 .weight {
@@ -298,7 +301,7 @@ border-style:none;
 }
 
 .footer {
-    background-color: #66CC66;
+    background-color:#99CC66;
     color: black;
     width: 100%;
 }

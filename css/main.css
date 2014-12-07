@@ -136,6 +136,8 @@ ul {
 
 .footer {
     background-color: #99CC66;
+    color: black;
+    border-style:solid;
 }
     
 .copyright {
@@ -244,10 +246,23 @@ ul {
 .form {
     width: 100%;
     background-color:#99CC66;
+    padding: 1em;
 }
     
 .fontcolour {
     color:#FF6633;
+}
+
+input,
+textarea {
+  margin: 0;
+  padding: 0.4em;
+  vertical-align: middle;
+  width: 100%;
+
+  border: 1px solid #ccc;
+
+  font-size: 1rem;
 }
 
 .email {
@@ -269,12 +284,8 @@ border-style:none;
 }
 
 .button-box {
-    font-size: 1em;
-    font-family:sans-serif;
-    font-style: italic;
-    font-weight:bold;
-    padding:none;
-    cursor: pointer;
+ text-align: center;
+padding-top: 1.0em;
 }
 
 .age {

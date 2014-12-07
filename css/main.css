@@ -127,6 +127,14 @@ ul {
     text-align: center;
 }
 
+.dollar {
+    padding: 1em;
+}
+
+.dollarmedium {
+    padding: 1em;
+}
+
 .img { 
     height: 100px;
     width: 100px;
@@ -165,7 +173,6 @@ text-align: center;
 
 .logo {
     width: 30%;
-
 }
 
 .nav {

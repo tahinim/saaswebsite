@@ -313,7 +313,8 @@ border-style:none;
 .button-box {
  text-align: center;
 padding-top: 1.0em;
-margin-left: 4rem;
+margin-left: 3rem;
+width: 100%;
 }
 
 .age {

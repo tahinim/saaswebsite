@@ -1,6 +1,6 @@
 .grid {
   margin: 0;
-  padding: 0;
+  padding: 3em;
   text-rendering: optimizespeed;
   display: -webkit-flex;
   -webkit-flex-flow: row wrap;
@@ -172,7 +172,6 @@
   visibility: visible;
 }
 
-}
 
 @media only screen and (min-width: 60em) {
 

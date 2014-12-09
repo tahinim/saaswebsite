@@ -19,6 +19,17 @@ html {
     box-sizing: inherit;
 }
 
+.list {
+    background-color: white;
+}
+
+.signup{
+    background-color: white;
+}
+
+.thankyou {
+    background-color: white;
+}
 .banner {
     background-image: url(../images/grilledchicken.jpg);
     background-size:cover;
@@ -277,9 +288,11 @@ text-align: center;
 }
 
 .form {
-    width: 100%;
+    width: 400px;
     background-color:#99CC66;
     padding: 1em;
+    margin-left: auto;
+    margin-right: auto;
 }
     
 .fontcolour {
@@ -317,10 +330,9 @@ border-style:none;
 }
 
 .button-box {
- text-align: center;
 padding-top: 1.0em;
-margin-left: 3rem;
-width: 100%;
+margin-left:auto;
+margin-right: auto;
 }
 
 .age {

@@ -373,17 +373,11 @@ ul {
     list-style-type: none;
     padding-right: 3rem;
 }
-
-.logo {
-    width: 50%;
-}
     
 .work {
     text-align: center;
     background-color:#FFFFFF;
     }
-    
-
 
 @media only screen and (min-width: 38em) {
     
@@ -392,9 +386,6 @@ ul {
    display: block;
    color: #000000;
 }
- .logo{
-    30%;
-    }
     
 .images {
     width: 50%;
@@ -406,13 +397,13 @@ ul {
         text-align: center;
     }
     
-    .logo {
-        30%;
-    }
     .nav a:visited {
    display: block;
    color: #000000;
 }
+    .logo {
+        width: 50%;
+    }
 
     .images {
         width: 50%;

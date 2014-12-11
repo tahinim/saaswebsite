@@ -163,7 +163,7 @@ ul {
 }
 
 .p {
-text-align: center;
+    text-align: center;
 }
 
 
@@ -233,8 +233,8 @@ text-align: center;
 .nav .nav-current,
 .nav .nav-current:link,
 .nav .nav-current:visited {
- background-color: #FFFFFF;
- color: #66CC66;
+    background-color: #FFFFFF;
+    color: #66CC66;
 }
 
 .nav {
@@ -301,51 +301,51 @@ text-align: center;
 
 input,
 textarea {
-  margin: 0;
-  padding: 0.4em;
-  vertical-align: middle;
- border: 1px solid #ccc;
-font-size: 1rem;
+    margin: 0;
+    padding: 0.4em;
+    vertical-align: middle;
+    border: 1px solid #ccc;
+    font-size: 1rem;
 }
 
 .email {
-font-size: 1.5em;
-border-radius: 1px;
-background-color: white;
-padding:0em; 1.5em;
-width: 100%;
-border-style:none;
+    font-size: 1.5em;
+    border-radius: 1px;
+    background-color: white;
+    padding:0em; 1.5em;
+    width: 100%;
+    border-style:none;
 }
 
 .name {
-font-size: 1.5em;
-border-radius: 1px;
-background-color: white;
-padding:0em; 1.5em;
-width:100%;
-border-style:none;
+    font-size: 1.5em;
+    border-radius: 1px;
+    background-color: white;
+    padding:0em; 1.5em;
+    width:100%;
+    border-style:none;
 }
 
 .button-box {
-padding-top: 1.0em;
-margin-left:auto;
-margin-right: auto;
+    padding-top: 1.0em;
+    margin-left:auto;
+    margin-right: auto;
 }
 
 .age {
-font-size: 1.5em;
-border-radius: 1px;
-background-color: white;
-padding:0em; 1.5em;
-width: 100%;
-border-style:none;
+    font-size: 1.5em;
+    border-radius: 1px;
+    background-color: white;
+    padding:0em; 1.5em;
+    width: 100%;
+    border-style:none;
 }
 
 input + label {
-display: block;
-position: relative;
-padding: 0;
-margin: 0;
+    display: block;
+    position: relative;
+    padding: 0;
+    margin: 0;
 }
 
 
@@ -356,12 +356,12 @@ margin: 0;
 }
     
 .field {
-font-size: 1.5em;
-border-radius: 1px;
-background-color: white;
-padding:5.0em 1.5em;
-border-style:none;
-width: 100%;
+    font-size: 1.5em;
+    border-radius: 1px;
+    background-color: white;
+    padding:5.0em 1.5em;
+    border-style:none;
+    width: 100%;
 }
     
 .copyright {

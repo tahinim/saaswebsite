@@ -303,7 +303,6 @@ textarea {
   margin: 0;
   padding: 0.4em;
   vertical-align: middle;
-  width: 100%;
 
   border: 1px solid #ccc;
 
@@ -343,10 +342,27 @@ width: 100%;
 border-style:none;
 }
 
+input + label {
+display: block;
+position: relative;
+padding: 0;
+margin: 0;
+}
+
+
 .footer {
     background-color:#99CC66;
     color: black;
     width: 100%;
+}
+    
+.field {
+font-size: 1.5em;
+border-radius: 1px;
+background-color: white;
+padding:5.0em 1.5em;
+border-style:none;
+width: 100%;
 }
     
 .copyright {
@@ -357,6 +373,10 @@ border-style:none;
     padding-left: 1rem;
     font-size:0.7em;
 }    
+
+.green {
+    margin-left: 3em;
+}
 
 .nav micro {
     padding:0;

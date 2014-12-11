@@ -169,6 +169,7 @@ text-align: center;
 
 .footer {
     background-color: #99CC66;
+    padding: 0em;
 }
     
 .copyright {
@@ -303,10 +304,8 @@ textarea {
   margin: 0;
   padding: 0.4em;
   vertical-align: middle;
-
-  border: 1px solid #ccc;
-
-  font-size: 1rem;
+ border: 1px solid #ccc;
+font-size: 1rem;
 }
 
 .email {
